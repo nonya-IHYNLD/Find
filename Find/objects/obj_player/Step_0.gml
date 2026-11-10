@@ -7,6 +7,11 @@ var _move_up = keyboard_check(ord("W")) || keyboard_check(vk_up)
 var _xaxis = _move_right - _move_left;
 var _yaxis = _move_down - _move_up;
 
+//Sprite Direction Control
+if (_xaxis !=0) {
+	image_xscale = _xaxis;
+}
+
 //Movement Speed
 hspd = _xaxis * move_speed;
 vspd = _yaxis * move_speed;

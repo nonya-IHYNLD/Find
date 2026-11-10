@@ -5,8 +5,11 @@ draw_set_font(ftn_game);  //Ensure font asset created
 draw_text(32, 32, "Collected: " + string(collected_count) + " /" + string(target_count));
 
 //Timer Display
-var _seconds = ceil(time_remaining / game_get_speed);
-draw_text(32, 64, "Time Left: " + string(_seconds));
+var _total_seconds = time_remaining / game_get_speed(gamespeed_fps);
+var _minutes = floor(_total_seconds / 60);
+var _seconds = floor(_total_seconds) % 60;
+var _time_string = string(_minutes) + ":" + (_seconds < 10 ? "0" : "") + string(_seconds);
+draw_text(32, 64, "Time Left: " + _time_string);
 
 if (game_over) {
 	draw_set_halign(fa_center);

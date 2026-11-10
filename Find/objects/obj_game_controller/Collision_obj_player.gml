@@ -3,7 +3,7 @@ with (obj_game_controller) {
 	
 	if (collected_count >= target_count) {
 		game_won = true;
-		//room_goto(rm_win)  if seperate win screen
+		//room_goto_next(); next level
 	}
 }
 
