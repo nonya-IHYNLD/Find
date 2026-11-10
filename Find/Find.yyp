@@ -20,6 +20,7 @@
   "name":"Find",
   "resources":[
     {"id":{"name":"ftn_game","path":"fonts/ftn_game/ftn_game.yy",},},
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_game_controller","path":"objects/obj_game_controller/obj_game_controller.yy",},},
     {"id":{"name":"obj_goal","path":"objects/obj_goal/obj_goal.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},

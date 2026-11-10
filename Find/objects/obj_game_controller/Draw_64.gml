@@ -10,12 +10,12 @@ draw_text(32, 64, "Time Left: " + string(_seconds));
 
 if (game_over) {
 	draw_set_halign(fa_center);
-	draw_text(room_width / 2, room_height / 2, "Time Up!  You Lose!");
+	draw_text(display_get_gui_width() / 2, display_get_gui_height() / 2, "Time Up!  You Lose!");
 	draw_set_halign(fa_left);
 }
 
 if (game_won) {
 	draw_set_halign(fa_center);
-	draw_text(room_width / 2, room_height / 2, "You Win!");
+	draw_text(display_get_gui_width() / 2, display_get_gui_height() / 2, "You Win!");
 	draw_set_halign(fa_left);
 }
