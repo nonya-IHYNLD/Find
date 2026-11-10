@@ -25,5 +25,14 @@ if (keyboard_check_pressed(ord("P"))) //toggle pause
 		//capture this game moment (won't capture draw GUI contents though)
 		pauseSurf = surface_create(resW, resH)
 		surface_set_target(pauseSurf);
-			draw_surface(application_surface)
-			
+			draw_surface(application_surface,0 ,0)
+			surface_reset_target();
+	}
+	else //unpause now
+	{
+		pause = false;
+		instance_activate_all();
+		if(surface_exists(pauseSurf)) surface_free(pauseSurf);
+		if(surface_exists (pauseSurfBuffer)) buffer_delete(pauseSurfBuffer);
+	}
+}
