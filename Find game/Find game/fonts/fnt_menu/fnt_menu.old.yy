@@ -191,8 +191,8 @@
   "maintainGms1Font":false,
   "name":"fnt_menu",
   "parent":{
-    "name":"Find",
-    "path":"Find.yyp",
+    "name":"Find game",
+    "path":"Find game.yyp",
   },
   "pointRounding":0,
   "ranges":[
