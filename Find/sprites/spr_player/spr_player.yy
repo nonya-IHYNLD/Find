@@ -23,7 +23,7 @@
   ],
   "name":"spr_player",
   "nineSlice":null,
-  "origin":7,
+  "origin":9,
   "parent":{
     "name":"Find",
     "path":"Find.yyp",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":16,
-    "yorigin":32,
+    "yorigin":28,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
