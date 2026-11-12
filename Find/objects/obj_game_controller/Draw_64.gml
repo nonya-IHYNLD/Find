@@ -1,8 +1,8 @@
 draw_set_colour(c_white);
 draw_set_font(ftn_game);  //Ensure font asset created
 
-//Score Display
-draw_text(32, 32, "Collected: " + string(collected_count) + " /" + string(target_count));
+// Draw GUI Event of obj_game_controller (Line 5)
+draw_text(32, 32, "Fossils: " + string(global.fossils_collected) + " / " + string(global.total_fossils));
 
 //Timer Display
 var _total_seconds = time_remaining / game_get_speed(gamespeed_fps);
