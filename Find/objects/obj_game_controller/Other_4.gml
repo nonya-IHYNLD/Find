@@ -1,4 +1,4 @@
-//Reset Game States and Timer.
+//Reset Game States and Timer into next level.
 
 if (room == rm_level_2) {
 	game_won = false;

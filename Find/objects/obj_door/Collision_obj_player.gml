@@ -4,8 +4,7 @@ with (obj_game_controller) {
 			game_won = true;
 			
 			time_remaining = 180;  //Reset Timer for next level
-			//room_goto_next();  
-			//room_goto(rm_level_2);
+			room_goto(rm_level_2);
 		} else {
 			show_debug_message("Door is locked! You need more items.");
 		}
