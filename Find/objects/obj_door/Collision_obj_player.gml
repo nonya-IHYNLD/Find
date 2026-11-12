@@ -2,6 +2,8 @@ with (obj_game_controller) {
 	if (!game_over && !game_won){
 		if (collected_count >= target_count) {
 			game_won = true;
+			
+			time_remaining = 180;  //Reset Timer for next level
 			//room_goto_next();  
 			//room_goto(rm_level_2);
 		} else {
