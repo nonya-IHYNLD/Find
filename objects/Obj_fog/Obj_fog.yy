@@ -8,8 +8,8 @@
   "name":"Obj_fog",
   "overriddenProperties":[],
   "parent":{
-    "name":"findREAAL",
-    "path":"findREAAL.yyp",
+    "name":"Find v1",
+    "path":"Find v1.yyp",
   },
   "parentObjectId":null,
   "persistent":false,

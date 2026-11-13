@@ -1,6 +1,6 @@
 {
   "$GMProject":"v1",
-  "%Name":"findREAAL",
+  "%Name":"Find v1",
   "AudioGroups":[
     {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -23,7 +23,7 @@
   "MetaData":{
     "IDEVersion":"2026.0.0.16",
   },
-  "name":"findREAAL",
+  "name":"Find v1",
   "resources":[
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"Level_1_Button","path":"objects/Level_1_Button/Level_1_Button.yy",},},

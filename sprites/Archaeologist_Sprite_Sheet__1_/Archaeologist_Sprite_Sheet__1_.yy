@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"findREAAL",
-    "path":"findREAAL.yyp",
+    "name":"Find v1",
+    "path":"Find v1.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
