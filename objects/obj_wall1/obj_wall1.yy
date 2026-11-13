@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_wall",
-    "path":"sprites/spr_wall/spr_wall.yy",
+    "name":"Spr_Rockwall",
+    "path":"sprites/Spr_Rockwall/Spr_Rockwall.yy",
   },
   "spriteMaskId":null,
   "visible":true,

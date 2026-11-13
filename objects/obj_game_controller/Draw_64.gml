@@ -1,5 +1,4 @@
 draw_set_colour(c_white);
-draw_set_font(ftn_game);  //Ensure font asset created
 
 // Draw GUI Event of obj_game_controller (Line 5)
 draw_text(32, 32, "Fossils: " + string(global.fossils_collected) + " / " + string(global.total_fossils));

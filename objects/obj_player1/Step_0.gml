@@ -20,8 +20,8 @@ if (!obj_game_controller.game_over && !obj_game_controller.game_won) {
     vspd = _yaxis * move_speed;
 
     // Horizontal Collision System
-    if (place_meeting(x + hspd, y, obj_wall)) {
-        while (!place_meeting(x + sign(hspd), y, obj_wall)) {
+    if (place_meeting(x + hspd, y, obj_specialwall)) {
+        while (!place_meeting(x + sign(hspd), y, obj_specialwall)) {
             x += sign(hspd);
         }
         hspd = 0; // Stop horizontal speed
@@ -29,8 +29,8 @@ if (!obj_game_controller.game_over && !obj_game_controller.game_won) {
     x += hspd; // Apply horizontal movement
 
     // Vertical Collision System
-    if (place_meeting(x, y + vspd, obj_wall)) {
-        while (!place_meeting(x, y + sign(vspd), obj_wall)) {
+    if (place_meeting(x, y + vspd, obj_specialwall)) {
+        while (!place_meeting(x, y + sign(vspd), obj_specialwall)) {
             y += sign(vspd);
         }
         vspd = 0; // Stop vertical speed
